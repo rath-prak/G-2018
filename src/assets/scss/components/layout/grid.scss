@@ -1,0 +1,41 @@
+//  Grid Container
+//  -----------------------------------------------
+
+.grid-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .grid-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .grid-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-container {
+    width: 1170px;
+  }
+}
+
+//  Column Gutter
+//  -----------------------------------------------
+
+.pure-g > div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pure-g {
+  margin: 0 -1em;
+}
+
+.pure-g > div {
+  padding: 0 1em;
+}
