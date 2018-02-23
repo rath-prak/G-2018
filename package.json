@@ -10,6 +10,7 @@
   "author": "Rath Prak",
   "license": "MIT",
   "dependencies": {
+    "gsap": "^1.20.4",
     "jquery": ">=3.0.0",
     "motion-ui": "~1.2.2",
     "purecss": "^1.0.0",
