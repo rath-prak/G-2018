@@ -16,9 +16,11 @@
 .toggle-bar-wrapper {
   position: absolute;
   top: 30px;
-  right: 40px;
+  right: 0;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  width: 160px;
 }
 
 .toggle-bar-wrapper > span {
@@ -28,6 +30,7 @@
   margin-right: 10px;
   font-size: 0.9em;
   cursor: pointer;
+  margin-left: 30px;
 }
 
 .toggle-bars {
@@ -47,13 +50,15 @@
 }
 
 .toggle-bars b:nth-child(1) {
-  top: 0;
+  top: 0%;
 }
+
 .toggle-bars b:nth-child(2) {
   top: 50%;
 }
+
 .toggle-bars b:nth-child(3) {
-  top: 100%;
+  bottom: 0%;
 }
 
 /* Full screen overlay - from right */
@@ -74,13 +79,16 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 4em;
+
   ul {
     padding-left: 0px;
   }
+
   ul > li {
     list-style-type: none;
     margin-bottom: 1em;
   }
+
   ul > li > a {
     font-size: 1.4em;
     text-transform: uppercase;
@@ -88,10 +96,12 @@
     text-decoration: none;
     font-weight: 400;
   }
+
   li > img {
     width: 250px;
     margin-bottom: 2em;
   }
+
   ul.social {
     display: flex;
     li {
