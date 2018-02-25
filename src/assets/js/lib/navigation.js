@@ -20,7 +20,7 @@ const navigation = () => {
     tl.to(bar2, 0.6, { x: 100, opacity: 0, ease: Back.easeIn}, -0.6);
     tl.to(navMenuText, 0.6, { x: 150, opacity: 0, ease: Back.easeIn}, -0.6);
 
-    tl.to(overlayNavContent, 1, { x: "50%", ease: Back.easeOut }, 0.5);
+    tl.to(overlayNavContent, 1, { x: "10%", ease: Back.easeOut }, 0.5);
     tl.to(overlayNavContent2, 1, { x: "0", ease: Back.easeOut }, 0.5);
 
   toggleBarsWrapper.click(function(){
