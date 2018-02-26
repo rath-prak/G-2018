@@ -3,10 +3,31 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Khula', sans-serif;
   font-weight: 600;
+  color: $font-color;
+  margin: 0;
+  padding: 0;
 }
 
 p, a {
   font-family: 'Khula', sans-serif;
   font-weight: 300;
-  font-size: rem-calc(16);
+  font-size: 16px;
+  color: $font-color;
+}
+
+
+/* HEADINGS */
+.heading-lg {
+  text-transform: uppercase;
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* PARAGRAPH STYLES */
+.text-intro {
+  color: lighten($font-color, 50);
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: 400;
 }

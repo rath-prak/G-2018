@@ -1,20 +1,31 @@
+/* Byline lock*/
 .by-line {
   display: flex;
   margin-bottom: 30px;
   .by-line-border {
     height: 35px;
     width: 3px;
-    background: white;
+    background: $font-color;
     margin-right: 10px;
     transform: translateY(2px);
     opacity: 0.5;
   }
   p {
-    color: white;
+    color: $font-color;
     text-transform: uppercase;
     font-weight: 700;
     opacity: 0.5;
     margin: 0;
     line-height: 1.4;
+  }
+}
+
+.by-line-reverse {
+  @extend .by-line;
+  .by-line-border {
+    background: $white;
+  }
+  p {
+    color: $white;
   }
 }
