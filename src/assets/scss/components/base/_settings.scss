@@ -71,10 +71,10 @@ html, body {
 $global-width: 1200px;
 
 //colors
-
+$brand-color: #16325c;
 $white: #fff;
 
-$font-color: #16325c;
+$font-color: $brand-color;
 $font-color-reverse: $white;
 
 

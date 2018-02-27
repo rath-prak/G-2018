@@ -1,5 +1,5 @@
 .landing-wrapper {
-  background: #2488E3;
+  background: #CDDAD4;
   width: 100%;
   height: 100vh;
 }
@@ -23,8 +23,31 @@
 /* HOME - ABOUT SECTION */
 
 .home-about-wrapper {
-  min-height: 100vh;
   .logo {
     width: 10em;
   }
 }
+
+.about-section-01,
+.about-section-02 {
+  padding: 90px 0;
+}
+
+.about-section-01 {
+  img {
+    width: 180px;
+    float: right;
+  }
+}
+
+.about-section-02 {
+  background: #CDDAD4;
+  img {
+    width: 250px;
+  }
+}
+
+// .slide-01 {
+//   background: url(../img/ghassan_background.jpg) fixed center center no-repeat;
+//   background-size: cover;
+// }
