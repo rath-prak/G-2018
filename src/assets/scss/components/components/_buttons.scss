@@ -1,0 +1,65 @@
+/* BUTTONS */
+/* ------- */
+
+%button-style {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 40px 5px 40px;
+  border: 1px solid white;
+  position: relative;
+  cursor: pointer;
+  transition: all 1s ease;
+  overflow: hidden;
+  display: inline-block;
+  z-index: 0;
+}
+
+.btn-primary:before,
+.btn-secondary:before,
+.btn-brand-color:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  transition: all 1s ease;
+	z-index: -1;
+ }
+
+ .btn-primary:before,
+ .btn-secondary:before,
+ .btn-brand-color:before {
+     top: 0;
+     left: -100%;
+   }
+
+  .btn-primary:hover:before,
+  .btn-secondary:hover:before,
+  .btn-brand-color:hover:before  {
+     left: 0;
+  }
+
+/* PRIMARY BUTTON */
+.btn-primary {
+  @extend %button-style;
+}
+
+.btn-primary:hover {
+    color: black;
+ }
+
+/* SECONDARY BUTTON */
+.btn-secondary {
+  @extend %button-style;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn-secondary:before {
+  background: black;
+}
+
+a.btn-secondary:hover {
+    color: white;
+ }
