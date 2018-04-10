@@ -1,0 +1,42 @@
+.feature-section-wrapper {
+  position: relative;
+}
+.aside-test {
+  position: absolute;
+  height: 750px;
+  background: #cbdad7;
+  z-index: -1;
+}
+
+.aside-test-02 {
+  margin-top: 150px;
+  .article-item {
+    padding: 60px;
+    p {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+  }
+}
+
+.article-img {
+  img {
+    width: 100%;
+  }
+}
+.aside-image-test {
+  img {
+    width: 100%;
+  }
+}
+
+.aside-background-test {
+  background: #F3F1ED;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}

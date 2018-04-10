@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
 
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Khula', sans-serif;
   font-weight: 600;
@@ -14,41 +13,37 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
 p, a {
   font-family: 'Khula', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   color: $font-color;
 }
+
+$script-font: 'Playfair Display', serif;
 
 
 /* HEADINGS */
 .heading-lg {
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 700;
   line-height: 1;
 }
 
 @media screen and (min-width: 48em) {
   .heading-lg {
-    font-size: 3.5em;
+    font-size: 3em;
   }
 }
 
 @media screen and (min-width: 64em) {
   .heading-lg {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 }
 
-// .heading-lg {
-//   text-transform: uppercase;
-//   font-size: 4em;
-//   font-weight: 700;
-//   line-height: 1;
-// }
-//
 // /* PARAGRAPH STYLES */
 .text-intro {
   text-transform: uppercase;

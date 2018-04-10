@@ -1,0 +1,32 @@
+/* HOME - ABOUT SECTION */
+
+.about-section-01,
+.about-section-02 {
+  padding: 40px 0;
+}
+
+.home-about-article {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 48em) {
+  .home-about-article {
+    margin-top: 0px;
+  }
+  .home-about-img,
+  .home-about-article {
+    padding: 15px !important;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .home-about-article {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .home-about-article {
+    margin-top: 60px;
+  }
+}
