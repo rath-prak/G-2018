@@ -17,6 +17,7 @@
 // 3. component
 // ---------
 @import 'components/components/buttons';
+@import 'components/components/products';
 
 // 5. State
 // ---------
@@ -27,3 +28,5 @@
 @import 'components/pages/home';
 @import 'components/pages/home-about';
 @import 'components/pages/home-products';
+
+@import 'components/pages/shampoo';
