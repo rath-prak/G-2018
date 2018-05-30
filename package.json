@@ -10,10 +10,10 @@
   "author": "Rath Prak",
   "license": "MIT",
   "dependencies": {
+    "foundation-sites": "^6.4.4-rc1",
     "gsap": "^1.20.4",
     "jquery": ">=3.0.0",
     "motion-ui": "~1.2.2",
-    "purecss": "^1.0.0",
     "scrollmagic": "^2.0.5",
     "what-input": "^4.1.3"
   },
