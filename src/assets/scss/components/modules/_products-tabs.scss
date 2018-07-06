@@ -1,5 +1,6 @@
-.tabs-link-wrapper {
-  background: lighten($black, 85);
+
+.products-heading {
+  margin-top: 60px;
 }
 
 ul.tab-links {
@@ -8,7 +9,6 @@ ul.tab-links {
   align-items: center;
   margin: 0;
   flex-direction: column;
-  background: pink;
   width: 70%;
   margin: 0 auto;
   li {
@@ -27,6 +27,7 @@ ul.tab-links {
     line-height: 60px;
     font-weight: 700;
     font-size: 18px;
+    border-bottom: 3px solid $light-gray;
   }
 }
 
@@ -37,14 +38,12 @@ ul.tab-links {
 }
 
 ul.tab-links a:hover {
-  background: blue;
-  color: $white;
+  color: lighten($black, 30);
 }
 
 li.active a, li.active a:hover {
-  background: green;
   color: $black;
-  border-bottom: 5px solid blue;
+  border-bottom: 3px solid $black;
 }
 
 .hotel-info-img {
