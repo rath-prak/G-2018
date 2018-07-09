@@ -1,33 +1,36 @@
 /* HOME - LANDING PAGE */
 
-.landing-wrapper {
-  // background: url(../img/temp-hero-04.jpg) no-repeat center center;
-  // background-size: cover;
-  background: $brand-color;
-  width: 100%;
+/* Full width hero */
+.fp-hero {
+  position: relative;
+  z-index: 1;
   height: 100vh;
-}
-
-.content-wrapper {
-  height: 100vh;
+  max-height: rem-calc(1350);
+  min-height: rem-calc(550);
   display: flex;
   align-items: center;
-  color: white;
+}
+
+.hero-content {
+  padding: 30px;
+  display: flex;
+  align-items: center;
   h1 {
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 3.5em;
+    font-size: 2em;
     line-height: 1.2;
+    margin-bottom: 10px;
   }
 }
 
-/* SHAME */
-.think-green-wrapper {
-  background: url(../img/green_background.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.think-green {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 30px !important;
+@media screen and ( min-width: 40em ) {
+  .hero-content {
+    h1 {
+      font-size: 2.8em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  }
 }

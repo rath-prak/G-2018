@@ -1,0 +1,18 @@
+.environment-wrapper {
+  padding: 90px 0;
+  background: url(../img/green_background.jpg) no-repeat center center;
+  background-size: cover;
+  .environment-content {
+    h1, p {
+      color: $white;
+    }
+    .by-line {
+      .by-line-border {
+        background: $white !important;
+      }
+      p {
+        color: $white;
+      }
+    }
+  }
+}
