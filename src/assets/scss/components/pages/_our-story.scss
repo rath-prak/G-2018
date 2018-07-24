@@ -1,0 +1,19 @@
+.our-story-hero {
+  position: relative;
+  background: url(../img/our-story-temp.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+
+.hero-content {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+}

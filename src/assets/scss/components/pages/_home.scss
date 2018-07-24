@@ -24,6 +24,18 @@
   }
 }
 
+.scroll-down {
+  z-index: 1000;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  img {
+    width: 100%;
+  }
+}
+
 @media screen and ( min-width: 40em ) {
   .hero-content {
     h1 {
