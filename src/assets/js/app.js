@@ -12,6 +12,12 @@ navigation();
 
 $(document).ready(function(){
 
+  // Toggle Collapse
+    $('.faq li .question').click(function () {
+      $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+      $(this).parent().toggleClass('active');
+    });
+
   /* TABS */
   $('.tabs-nav .tab-links a').on('click', function(e)  {
     var currentAttrValue = $(this).attr('href');
