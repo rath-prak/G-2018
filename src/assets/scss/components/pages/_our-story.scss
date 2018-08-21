@@ -16,4 +16,15 @@
     line-height: 1.2;
     margin-bottom: 10px;
   }
+  h3 {
+    text-align: center;
+  }
+}
+
+.our-story-content {
+  margin: 90px 0;
+  p:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }

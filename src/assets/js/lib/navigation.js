@@ -10,7 +10,7 @@ const navigation = () => {
   let overlayNavContent2 = $(".overlay-nav-content-2");
   let overlayBlock = $(".overlay-block");
 
-    let tl = new TimelineMax({ paused:true });
+    let tl = new TimelineMax({ paused:true, reversed:true });
 
     tl.to(bar1, 0.3, { y: 10,})
       .to(bar1, 0.6, { rotation: -135, ease: Back.easeOut});
